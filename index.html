@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.min.css" integrity="sha256-SCRy3fXoOamBaidKByHs9iJVLYJ65R/v6ycZNN4JhmE=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.all.min.js" integrity="sha256-lCHT/LfuZjRp+PdpWns/vKrnSn367D/g1E6Ju18wiH0=" crossorigin="anonymous"></script>
+    <title>Taskly</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+    body {
+        font-family: "Dangrek", serif;
+        background-color: #FBAB7E;
+        background-image: linear-gradient(80deg, #FBAB7E 50%, #F7CE68 50%);  
+    }
+
+
+
+    .done {
+        text-decoration: line-through 0.3em #ffc107;
+        transition: text-decoration-color 300ms;
+    }
+
+</style>
+<body>
+    <div class="container d-flex flex-column align-items-center .align-items-center">
+        <div class="card text-center border-warning w-75">
+            <div class="card-body">
+                <h1 class="card-title fw-bold fst-italic text-decoration-underline"><img src="images/favicon.png" class="pb-1" alt="favicon">Taskly</h1>
+                <div class="input-group mb-3 d-flex flex-column flex-sm-row">
+                    <input id="task-value" type="text" class="form-control fs-4 w-100 rounded-0" placeholder="Enter Task Name" aria-label="Task Name" aria-describedby="button-addon2">
+                    <button id="add-btn" class="btn btn-outline-warning fs-4 w-50 rounded-2 m-auto mt-1 border border-warning border-4" type="button" id="button-addon2">Add Task</button>
+                </div>
+            </div>
+            <div id="task-list" class="card border-warning m-3 p-3">
+            </div>
+            <div class="text-center p-3" style="background-color: #FBAB7E; background-image: linear-gradient(80deg, #FBAB7E 40%, #F7CE68 50%)">
+                © 2025 Copyright:
+                <a class="text" href="https://github.com/UMo0HU">Mohamed_Abdo</a>
+              </div>
+        </div>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
