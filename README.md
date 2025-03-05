@@ -3,17 +3,10 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
@@ -35,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/UMo0HU/advice-generator-app-main)
-- Live Site URL: [Live Site](https://umo0hu.github.io/advice-generator-app-main/)
+- Solution URL: [Solution](https://github.com/UMo0HU/To-Do-Taskly)
+- Live Site URL: [Live Site](https://umo0hu.github.io/To-Do-Taskly/)
 
 ## My process
 
